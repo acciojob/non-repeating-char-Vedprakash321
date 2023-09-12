@@ -4,7 +4,7 @@ function firstNonRepeatedChar(str) {
 	
 	for(let i=0;i<n;i++){
 		 let char = str[i];
-	    if (str.indexOf(char) == i ) {
+	    if (str.indexOf(char) == str.indexOf(char)) {
 	      return char;
 	    }
 			
